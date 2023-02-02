@@ -8,3 +8,10 @@ Features
     3. Notification System.
     4. DataVisualisation.
  
+Tech Stack
+
+- Backend -> Node.js
+- Frontend -> React
+- Database -> MongoDB.
+
+Timeline 10 weeks.
