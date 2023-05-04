@@ -1,0 +1,17 @@
+1st February
+
+TrackRacks
+
+Features
+    1. Progressive Overload Metrics.
+    2. Diet Tracker.
+    3. Notification System.
+    4. DataVisualisation.
+ 
+Tech Stack
+
+- Backend -> Node.js
+- Frontend -> React
+- Database -> MongoDB.
+
+Timeline 10 weeks.
