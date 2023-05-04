@@ -1,0 +1,62 @@
+/* CSS for View Workout table */
+#viewWorkout {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    
+    #viewWorkout th, #viewWorkout td {
+    padding: 10px;
+    text-align: center;
+    }
+    
+    #viewWorkout th {
+    background-color: #4285f4;
+    color: #fff;
+    }
+    
+    #viewWorkout tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    
+    #viewWorkout tr:hover {
+    background-color: #ddd;
+    }
+    
+    #viewWorkout input[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+    }
+    
+    #viewWorkout input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+    }
+    
+    /* CSS for Return to Workout and Dashboard buttons */
+    #returnToWorkoutBtn,
+    #dashboardBtn {
+    margin-top: 50px;
+    }
+    
+    #returnToWorkoutBtn input[type="submit"],
+    #dashboardBtn input[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    }
+    
+    #returnToWorkoutBtn input[type="submit"]:hover,
+    #dashboardBtn input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+    }

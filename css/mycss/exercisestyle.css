@@ -1,0 +1,135 @@
+/* exercise form */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  input[type="number"] {
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 30%;
+    height: 15px;
+    border-radius: 5px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4285f4;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4285f4;
+    cursor: pointer;
+  }
+  
+  input[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1c6ed4;
+  }
+  
+  /* dashboard and workout graph */
+  #workoutGraph {
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+  }
+  
+  #title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    margin-top: 50px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  #viewWorkoutDiv,
+  #dashboardForm {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #viewWorkoutDiv input[type="submit"],
+  #dashboardForm input[type="submit"] {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  #viewWorkoutDiv input[type="submit"]:hover,
+  #dashboardForm input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slidecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  

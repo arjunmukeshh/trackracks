@@ -1,0 +1,63 @@
+#workoutGraph {
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+  }
+  
+  #title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  input[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  table {
+    margin-top: 50px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  #viewWorkoutDiv,
+  #dashboardForm {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #viewWorkoutDiv input[type="submit"],
+  #dashboardForm input[type="submit"] {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  #viewWorkoutDiv input[type="submit"]:hover,
+  #dashboardForm input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

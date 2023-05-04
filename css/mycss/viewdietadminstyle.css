@@ -1,0 +1,46 @@
+/* CSS for View Diet Table */
+#viewDiet {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    }
+    
+    #viewDiet th, #viewDiet td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    }
+    
+    #viewDiet th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+    }
+    
+    #viewDiet td:first-child {
+    font-weight: bold;
+    }
+    
+    #viewDiet td:nth-child(4) {
+    text-align: center;
+    }
+    
+    #viewDiet input[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
+    #viewDiet input[type="submit"]:hover {
+    background-color: #000;
+    }
+    
+    #viewDiet form {
+    display: inline-block;
+    }
+    
+    #viewDiet form:nth-child(2) {
+    margin-left: 10px;
+    }

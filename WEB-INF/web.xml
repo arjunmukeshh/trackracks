@@ -1,0 +1,175 @@
+<web-app>
+   
+    <servlet>
+        <servlet-name>NewUser</servlet-name>
+        <servlet-class>NewUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewUser</servlet-name>
+        <url-pattern>/NewUser</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NewWorkout</servlet-name>
+        <servlet-class>NewWorkout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewWorkout</servlet-name>
+        <url-pattern>/NewWorkout</url-pattern>
+    </servlet-mapping>
+
+
+      <servlet>
+        <servlet-name>NewDiet</servlet-name>
+        <servlet-class>NewDiet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewDiet</servlet-name>
+        <url-pattern>/NewDiet</url-pattern>
+    </servlet-mapping>
+
+    
+    <servlet>
+        <servlet-name>NewExercise</servlet-name>
+        <servlet-class>NewExercise</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewExercise</servlet-name>
+        <url-pattern>/NewExercise</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>NewMeal</servlet-name>
+        <servlet-class>NewMeal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewMeal</servlet-name>
+        <url-pattern>/NewMeal</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewWorkout</servlet-name>
+        <servlet-class>ViewWorkout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewWorkout</servlet-name>
+        <url-pattern>/ViewWorkout</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ViewExercise</servlet-name>
+        <servlet-class>ViewExercise</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewExercise</servlet-name>
+        <url-pattern>/ViewExercise</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ViewDiet</servlet-name>
+        <servlet-class>ViewDiet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewDiet</servlet-name>
+        <url-pattern>/ViewDiet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ViewFood</servlet-name>
+        <servlet-class>ViewFood</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewFood</servlet-name>
+        <url-pattern>/ViewFood</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteWorkout</servlet-name>
+        <servlet-class>DeleteWorkout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteWorkout</servlet-name>
+        <url-pattern>/DeleteWorkout</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteDiet</servlet-name>
+        <servlet-class>DeleteDiet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteDiet</servlet-name>
+        <url-pattern>/DeleteDiet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ViewWorkoutAdmin</servlet-name>
+        <servlet-class>ViewWorkoutAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewWorkoutAdmin</servlet-name>
+        <url-pattern>/ViewWorkoutAdmin</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ViewDietAdmin</servlet-name>
+        <servlet-class>ViewDietAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewDietAdmin</servlet-name>
+        <url-pattern>/ViewDietAdmin</url-pattern>
+    </servlet-mapping>
+
+    
+     <servlet>
+        <servlet-name>ViewWorkoutGraph</servlet-name>
+        <servlet-class>ViewWorkoutGraph</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewWorkoutGraph</servlet-name>
+        <url-pattern>/ViewWorkoutGraph</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ModifyDailyCalories</servlet-name>
+        <servlet-class>ModifyDailyCalories</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyDailyCalories</servlet-name>
+        <url-pattern>/ModifyDailyCalories</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

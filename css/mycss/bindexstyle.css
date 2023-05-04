@@ -1,0 +1,94 @@
+/* CSS for Add Diet form */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    }
+    
+    p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    }
+    
+    input[type="date"],
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"] {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 40%;
+    }
+    
+    input[type="radio"],
+    label {
+    font-size: 16px;
+    margin-bottom: 20px;
+    }
+    
+    input[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #000;
+    }
+    
+    /* CSS for Workout Graph */
+    #workoutGraph {
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    }
+    
+    #title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    }
+    
+    select {
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 10px;
+    }
+    
+    table {
+    margin-top: 50px;
+    }
+    
+    td {
+    padding: 10px;
+    }
+    
+    #viewWorkoutDiv,
+    #dashboardForm {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    #viewWorkoutDiv input[type="submit"],
+    #dashboardForm input[type="submit"] {
+    background-color: #ccc;
+    color: #000;
+    }
+    
+    #viewWorkoutDiv input[type="submit"]:hover,
+    #dashboardForm input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+    }

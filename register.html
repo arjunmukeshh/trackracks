@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackRacks - Test insert</title>
+    <link rel="stylesheet" href="css/mycss/bindexstyle.css">
+</head>
+<body>
+    <form action="./NewUser" method="post">
+        <p>Name: </p> <input type="text" name = "name"><br>
+        <p>Email</p><input type="email" name="email"><br>
+        <p>UserName: </p> <input type="text" name = "uname"><br>
+        <p>Password: </p> <input type="password" name = "upwd"><br>
+        
+        <p>Age : </p> <input type="number" name = "age" min="16"><br>
+        <p>Height : </p> <input type="number" name="height" min="120"><br>
+        <p>Weight in Kgs : </p> <input type="number" name="weight" min="30"><br>
+        <p>Daily calories goal : </p> <input type="number" name="dailyCalories"><br>
+        <p>Gender(male, female or others) : </p>
+        <input type="radio" id="m" value="m" name="gender"><label for="m">male</label>
+        <input type="radio" id = "f" value="f" name="gender"><label for="f">female</label>
+        <input type = "radio" id ="o" value="o" name="gender"><label for="o">others</label>
+        <br>
+        <br>
+        <input type="submit">
+        </form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* CSS for the provided HTML code /
+/ You can adjust these styles to fit your design */
+
+/* Styles for the addWorkoutDiv and addDietDiv */
+#addWorkoutDiv,
+#addDietDiv {
+display: inline-block;
+margin-right: 20px;
+}
+#addWorkoutForm input[type="submit"],
+#addDietForm input[type="submit"] {
+font-size: 16px;
+padding: 5px 10px;
+background-color: #4285f4;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+#addWorkoutForm input[type="submit"]:hover,
+#addDietForm input[type="submit"]:hover {
+background-color: #000;
+color: #fff;
+}
+
+/* Styles for the viewWorkoutDiv and viewDietDiv */
+#viewWorkoutDiv,
+#viewDietDiv {
+display: inline-block;
+margin-right: 20px;
+}
+#viewWorkoutForm input[type="submit"],
+#viewDietForm input[type="submit"] {
+font-size: 16px;
+padding: 5px 10px;
+background-color: #4285f4;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+#viewWorkoutForm input[type="submit"]:hover,
+#viewDietForm input[type="submit"]:hover {
+background-color: #000;
+color: #fff;
+}
+
+/* Styles for the adminChanges div */
+#adminChanges {
+display: none;
+}
+.admin label {
+font-size: 18px;
+}
+.admin input[type="text"] {
+font-size: 16px;
+padding: 5px;
+margin-left: 10px;
+}
+.admin button {
+font-size: 16px;
+padding: 5px 10px;
+background-color: #4285f4;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+.admin button:hover {
+background-color: #000;
+color: #fff;
+}
+
+#addWorkoutDiv,
+#addDietDiv,
+#viewWorkoutDiv,
+#viewDietDiv,
+#adminChanges {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#addWorkoutForm,
+#addDietForm,
+#viewWorkoutForm,
+#viewDietForm,
+form.admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

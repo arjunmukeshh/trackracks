@@ -1,0 +1,56 @@
+/* CSS for View Food table */
+#viewFood {
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    }
+    
+    #viewFood th {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    #viewFood td {
+    padding: 10px;
+    text-align: center;
+    }
+    
+    #viewFood tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    
+    #viewFood tr:hover {
+    background-color: #ddd;
+    }
+    
+    /* CSS for Total Calories */
+    #totalCalories {
+    font-size: 18px;
+    margin-top: 20px;
+    }
+    
+    #totalCalories p {
+    margin-bottom: 10px;
+    }
+    
+    #totalCalories table {
+    margin-top: 20px;
+    }
+    
+    #totalCalories td {
+    padding: 10px;
+    }
+    
+    #totalCalories input[type="submit"] {
+    background-color: #ccc;
+    color: #000;
+    margin-right: 20px;
+    }
+    
+    #totalCalories input[type="submit"]:hover {
+    background-color: #000;
+    color: #fff;
+    }
