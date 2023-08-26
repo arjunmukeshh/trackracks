@@ -8,3 +8,5 @@ How to set up on your local host :
   2. Change the details according to your MySQL details on the LoginInfo.java file inside WEB-INF/Classes directory.
   3. Start the tomcat server and verify by going to localhost:8080(default installation). 
   4. Use the website at localhost:8080/trackracks .
+
+Complete with a graph visualizer and muscle group classifier.
